@@ -25,6 +25,7 @@ import android.view.ViewGroup;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.balysv.materialmenu.MaterialMenuBase;
+import com.slidingmenu.lib.app.SlidingFragmentActivity;
 
 import static com.balysv.materialmenu.MaterialMenuDrawable.Stroke;
 
@@ -41,7 +42,7 @@ import static com.balysv.materialmenu.MaterialMenuDrawable.Stroke;
  */
 public class MaterialMenuIconSherlock extends MaterialMenuBase {
 
-    public MaterialMenuIconSherlock(SherlockActivity activity, int color, Stroke stroke) {
+    public MaterialMenuIconSherlock(SlidingFragmentActivity activity, int color, Stroke stroke) {
         super(activity, color, stroke);
     }
 
@@ -92,7 +93,7 @@ public class MaterialMenuIconSherlock extends MaterialMenuBase {
 
     @Override
     protected void setActionBarSettings(Activity activity) {
-        ActionBar actionBar = ((SherlockActivity) activity).getSupportActionBar();
+        ActionBar actionBar = ((SlidingFragmentActivity) activity).getSupportActionBar();
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(false);

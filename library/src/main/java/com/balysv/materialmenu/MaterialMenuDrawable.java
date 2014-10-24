@@ -125,9 +125,9 @@ public class MaterialMenuDrawable extends Drawable implements Animatable {
     public static final int DEFAULT_TRANSFORM_DURATION = 800;
     public static final int DEFAULT_PRESSED_DURATION   = 400;
 
-    private static final int BASE_DRAWABLE_WIDTH  = 40;
-    private static final int BASE_DRAWABLE_HEIGHT = 40;
-    private static final int BASE_ICON_WIDTH      = 20;
+    private static final int BASE_DRAWABLE_WIDTH  = 32;
+    private static final int BASE_DRAWABLE_HEIGHT = 32;
+    private static final int BASE_ICON_WIDTH      = 18;
     private static final int BASE_CIRCLE_RADIUS   = 18;
 
     private static final float ARROW_MID_LINE_ANGLE = 180;
